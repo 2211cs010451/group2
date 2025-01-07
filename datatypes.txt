@@ -1,0 +1,25 @@
+Datatype:
+used to define what kind of the data is stored.
+
+TYPES:
+primitive
+-stores single value
+-immutable
+*string
+*boolean
+*number
+*undefined
+*null
+*symbol
+
+non primitive:
+-stores multiple values
+-mutable
+*class
+*object
+*functions
+*arrays
+*math, date, json
+
+let str1="hi";
+console.log(str1);
