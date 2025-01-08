@@ -23,3 +23,301 @@ non primitive:
 
 let str1="hi";
 console.log(str1);
+
+In JavaScript, operators are symbols or keywords that perform operations on variables and values. Here's a comprehensive list of operators in JavaScript with examples for each:
+
+1. Arithmetic Operators
+Used to perform mathematical operations.
+
++ (Addition)
+
+javascript
+Copy code
+let x = 5 + 3; // 8
+- (Subtraction)
+
+javascript
+Copy code
+let x = 5 - 3; // 2
+* (Multiplication)
+
+javascript
+Copy code
+let x = 5 * 3; // 15
+/ (Division)
+
+javascript
+Copy code
+let x = 5 / 3; // 1.666...
+% (Modulo)
+
+javascript
+Copy code
+let x = 5 % 3; // 2
+** (Exponentiation)
+
+javascript
+Copy code
+let x = 2 ** 3; // 8
+2. Assignment Operators
+Used to assign values to variables.
+
+= (Assignment)
+
+javascript
+Copy code
+let x = 10; // x is now 10
++= (Add and assign)
+
+javascript
+Copy code
+let x = 5;
+x += 3; // x = x + 3 => 8
+-= (Subtract and assign)
+
+javascript
+Copy code
+let x = 5;
+x -= 3; // x = x - 3 => 2
+*= (Multiply and assign)
+
+javascript
+Copy code
+let x = 5;
+x *= 3; // x = x * 3 => 15
+/= (Divide and assign)
+
+javascript
+Copy code
+let x = 5;
+x /= 3; // x = x / 3 => 1.666...
+%= (Modulo and assign)
+
+javascript
+Copy code
+let x = 5;
+x %= 3; // x = x % 3 => 2
+**= (Exponentiation and assign)
+
+javascript
+Copy code
+let x = 2;
+x **= 3; // x = x ** 3 => 8
+3. Comparison Operators
+Used to compare values and return a Boolean (true or false).
+
+== (Equal to)
+
+javascript
+Copy code
+console.log(5 == '5'); // true (coerces types)
+=== (Strict equal to)
+
+javascript
+Copy code
+console.log(5 === '5'); // false (no type coercion)
+!= (Not equal to)
+
+javascript
+Copy code
+console.log(5 != 3); // true
+!== (Strict not equal to)
+
+javascript
+Copy code
+console.log(5 !== '5'); // true
+> (Greater than)
+
+javascript
+Copy code
+console.log(5 > 3); // true
+< (Less than)
+
+javascript
+Copy code
+console.log(5 < 3); // false
+>= (Greater than or equal to)
+
+javascript
+Copy code
+console.log(5 >= 5); // true
+<= (Less than or equal to)
+
+javascript
+Copy code
+console.log(5 <= 3); // false
+4. Logical Operators
+Used to perform logical operations and return Boolean values.
+
+&& (Logical AND)
+
+javascript
+Copy code
+console.log(true && false); // false
+|| (Logical OR)
+
+javascript
+Copy code
+console.log(true || false); // true
+! (Logical NOT)
+
+javascript
+Copy code
+console.log(!true); // false
+5. String Operators
+Used to work with strings.
+
++ (Concatenation)
+
+javascript
+Copy code
+let str = 'Hello' + ' ' + 'World'; // 'Hello World'
++= (Concatenate and assign)
+
+javascript
+Copy code
+let str = 'Hello';
+str += ' World'; // 'Hello World'
+6. Bitwise Operators
+Operate on the binary representation of numbers.
+
+& (AND)
+
+javascript
+Copy code
+console.log(5 & 3); // 1 (0101 & 0011 = 0001)
+| (OR)
+
+javascript
+Copy code
+console.log(5 | 3); // 7 (0101 | 0011 = 0111)
+^ (XOR)
+
+javascript
+Copy code
+console.log(5 ^ 3); // 6 (0101 ^ 0011 = 0110)
+~ (NOT)
+
+javascript
+Copy code
+console.log(~5); // -6 (~0101 = 1010)
+<< (Left shift)
+
+javascript
+Copy code
+console.log(5 << 1); // 10 (0101 << 1 = 1010)
+>> (Right shift)
+
+javascript
+Copy code
+console.log(5 >> 1); // 2 (0101 >> 1 = 0010)
+>>> (Unsigned right shift)
+
+javascript
+Copy code
+console.log(-5 >>> 1); // 2147483642 (unsigned right shift)
+7. Unary Operators
+Operate on a single operand.
+
++ (Unary plus)
+
+javascript
+Copy code
+let x = '5';
+console.log(+x); // 5 (converts string to number)
+- (Unary minus)
+
+javascript
+Copy code
+let x = '5';
+console.log(-x); // -5 (converts string to number and negates)
+++ (Increment)
+
+javascript
+Copy code
+let x = 5;
+console.log(x++); // 5 (post-increment)
+console.log(++x); // 7 (pre-increment)
+-- (Decrement)
+
+javascript
+Copy code
+let x = 5;
+console.log(x--); // 5 (post-decrement)
+console.log(--x); // 3 (pre-decrement)
+! (Logical NOT)
+
+javascript
+Copy code
+let x = true;
+console.log(!x); // false
+8. Ternary Operator
+A shorthand for if-else statements.
+
+javascript
+Copy code
+let x = 10;
+let result = (x > 5) ? 'Greater' : 'Smaller';
+console.log(result); // 'Greater'
+9. Type Operators
+Used to check the type of a variable or expression.
+
+typeof (Returns the type of a variable)
+
+javascript
+Copy code
+console.log(typeof 5); // "number"
+console.log(typeof 'hello'); // "string"
+instanceof (Checks if an object is an instance of a class)
+
+javascript
+Copy code
+let arr = [1, 2, 3];
+console.log(arr instanceof Array); // true
+10. Spread and Rest Operators
+Used to expand or gather elements.
+
+Spread ... (Expands an array or object)
+
+javascript
+Copy code
+let arr = [1, 2, 3];
+let newArr = [...arr, 4, 5]; // [1, 2, 3, 4, 5]
+Rest ... (Gathers arguments in a function)
+
+javascript
+Copy code
+function sum(...args) {
+  return args.reduce((a, b) => a + b, 0);
+}
+console.log(sum(1, 2, 3)); // 6
+11. Optional Chaining (?.)
+Used to safely access properties of objects that might be null or undefined.
+
+javascript
+Copy code
+let obj = { a: { b: { c: 10 } } };
+console.log(obj?.a?.b?.c); // 10
+console.log(obj?.a?.x?.c); // undefined
+12. Nullish Coalescing Operator (??)
+Returns the right-hand operand when the left-hand operand is null or undefined.
+
+javascript
+Copy code
+let x = null;
+let y = x ?? 5; // 5
+13. Comma Operator
+Used to evaluate multiple expressions and return the value of the last one.
+
+javascript
+Copy code
+let x = (1, 2, 3); // 3
+
+
+
+LOOPS:
+
+
+
+
+

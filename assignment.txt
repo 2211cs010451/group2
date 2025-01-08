@@ -1,4 +1,4 @@
-Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+1)Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
 ANS:
 *Data type is used to define what kind of the data is stored.
 *There are two types of data types-primitive and non primitive
@@ -56,3 +56,52 @@ ex: let(a)
 
 5.null: null is absence of objects / empty space
 ex: what is the return of "null" is object.
+
+
+
+2)write a condition to check greatest numbers among 3 numbers
+let a = 20
+ b= 30
+ c =40
+
+ANS:
+
+Using if Conditions
+
+let a = 20;
+let b = 30;
+let c = 40;
+
+if (a > b && a > c) {
+    console.log("The greatest number is a:", a);
+} else if (b > a && b > c) {
+    console.log("The greatest number is b:", b);
+} else {
+    console.log("The greatest number is c:", c);
+}
+
+Using switch Case
+
+let greatest;
+
+if (a > b && a > c) {
+    greatest = "a";
+} else if (b > a && b > c) {
+    greatest = "b";
+} else {
+    greatest = "c";
+}
+
+switch (greatest) {
+    case "a":
+        console.log("The greatest number is a:", a);
+        break;
+    case "b":
+        console.log("The greatest number is b:", b);
+        break;
+    case "c":
+        console.log("The greatest number is c:", c);
+        break;
+    default:
+        console.log("There is a tie or invalid input.");
+}
