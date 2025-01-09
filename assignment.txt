@@ -105,3 +105,6 @@ switch (greatest) {
     default:
         console.log("There is a tie or invalid input.");
 }
+
+
+3)

@@ -1,0 +1,11 @@
+* * * * *         *
+* * * * *         * *
+* * * * *         * * *
+* * * * *         * * * *
+* * * * *         * * * * *
+
+use for LOOP
+use nested LOOP
+use coordinates
+
+
