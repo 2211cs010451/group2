@@ -316,6 +316,62 @@ let x = (1, 2, 3); // 3
 
 
 LOOPS:
+1.for
+2.while
+3.do while
+
+FUNCTIONS:
+1.building blocks of js
+2.they are used for perform a specific task
+types:
+1)named
+2)anonymus
+3)function expression
+4)IIFE
+5)arrow
+6)higher order
+7)callback
+These functions are very useful for executing the given code properly and efficiently without any malfunctions.
+we need to call these functions wherever there is need of performing certain task described in the function.
+These functions can be called in various tasks and Factorial is not defined for negative numbers........
+
+
+
+Arrays :-
+- it is a non-primitive data type.
+- Array is used to store multiple values within a single variable.
+
+syantx :-  [];
+
+what is the difference between map and forEach method.
+map() :- it is used to iterate the values.
+        - it returns new copied array from the original array.
+
+forEach() :- it is used to iterate the values.
+          - it returns "undefined".
+
+create array of objects
+*************************
+
+
+
+what is object?
+- Object is an entity which contains states and behaviors.
+-states - properties , behaviour - functionality.
+- Object is an entity to store the values in the form key and value pair.
+
+synatax :-   let obj = {};
+ex :-   let userdetails ={
+        name:"Sam",
+        age:23
+        }
+
+Note: - Javascript is mainly object -based language till 2015 (es6) 
+- after es6 feature they added oops concept.
+
+
+
+
 
 
 

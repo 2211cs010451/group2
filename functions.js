@@ -38,13 +38,12 @@
         let b=32
         function k(){
             var user="reddy"
-            let company="googulu"
+            let company="google"
             const sal=353
             console.log(user)
             console.log(company)
             console.log(sal)
             console.log(a,b)
-
         }
         k()
 
@@ -67,5 +66,6 @@ console.log(k);
 // user.map((user)=>{
 //     console.log(user);
 // })
+
 
         

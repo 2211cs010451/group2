@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         var  a=10
         console.log(a, typeof(a))
         let str1="hi"
@@ -27,8 +19,8 @@
         console.log(str2)
         let str3="hyd"
         console.log(str3)
+
+        
         
     
-    </script>
-</body>
-</html>
+    
