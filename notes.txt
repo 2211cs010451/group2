@@ -370,6 +370,90 @@ Note: - Javascript is mainly object -based language till 2015 (es6)
 - after es6 feature they added oops concept.
 
 
+JSON stands for Javascript object notation.
+- JSON is a javscript technique used to transfer the data from client to server and server to client.
+
+syntax :-  
+
+js object :-
+************
+let a = {
+        name :"value",
+        age:25
+}
+
+json object:-
+*************
+{
+        "name" :"Sam",
+        "age" :25
+}
+
+- to create json file we have to create  a file with extension called
+        "filename.json".
+
+json methods:-
+**************
+1.JSON.stringify() :-it is used to convert JS obejct into json object.
+2.JSON.parse() :- it is used to convert json object into javascript object.
+
+Asynchronous in javascript:-
+****************************
+- to perform multiple task at a time.
+
+1.setTimeout() :- it is web api used to perform asyn operations with certain timeouts.
+syntax :-   setTimeout(callbackfn , timeout);
+
+2.setInterval() :- it is a web api used to perform async operation at every time interval specified.
+synatx :-  setInterval(callbackfn , timeout);
+
+3.promise :- Promise is an object which represents eventual completion or failures of async operations.
+        states of promise:-
+        1.pending state
+        2.fulfilled state
+        3.rejected state
+
+4.async & await
+
+note:- javscript is by default "Synchronous(single threaded)".
+
+
+DOM :-
+******
+- DOM stands document object model.
+- DOM is a web api used to manipulate the html content.
+- DOM is used to add , remove ,update the content in the html document.
+
+DOM Methods:-
+*************
+1.document.getElementById("demo"):- it is used to select html element based on "id attribute" value.
+                              - with id attribute we can select only one element(unique element).
+
+2.document.getElementsByClassName("test"):-it is used to select html element based on "class attribute" value.
+                                      - with class attribute we can select multiple elements.
+
+3.document.getElementsByTagName(""):- it is used to select html elements based on their tag names.
+
+4.document.getelementsByName(""):- it is used to select the html elements based on "name attribute".
+
+
+- below methods used to select html elements based on "css selectors".
+5.document.querySelector("#id"):- this method is used to select only one element.
+6.document.querySelectorAll(".class"):- this method is used to select multiple elements.
+
+
+Events in DOM:-
+***************
+-events are nothing but an actions performed on the html element.
+-in dom , we have events like click events , mouse events and key events.
+
+click evenets :- onclick , ondblclick , onsubmit , onchange .
+
+mouse events :- mouseover , mouseleave
+
+key events :- keydown , keyup , keypress(deprocated).
+
+
 
 
 
