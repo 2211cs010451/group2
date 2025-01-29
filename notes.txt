@@ -454,6 +454,12 @@ mouse events :- mouseover , mouseleave
 key events :- keydown , keyup , keypress(deprocated).
 
 
+Take array of objects where each object contains empid,empcompany,empaddress furthur contains an object which includes to properties such as empcity,area. display all these employee data on ui through js.
+
+
+
+
+
 
 
 
