@@ -36,7 +36,7 @@
 // console.log(x);
 
 // let x = users.forEach((user,i)=>{
-//     // console.log(user);
+//     console.log(user);
 //     return user;
 // });
 // console.log(x);
@@ -52,7 +52,7 @@
 
 // console.log(userDetails.city);
 
-//! nested object
+// ! nested object
 // let userDetails = {
 //     name :"Akshay",
 //     age:22,
@@ -94,42 +94,42 @@
 // console.log(user1.name);
 // console.log(user2.name);
 
-let userDetails =[
-    {
-        name:"sathvik",
-        city:"Karimnagar"
-    },
-    {
-        name:"Raghu",
-        city:"ananthpur"
-    },
-    {
-        name:"Shilpa",
-        city:"Kammam"
-    },
-    {
-        name:"Bharath",
-        city:"Sathupalli"
-    }
-];
+// let userDetails =[
+//     {
+//         name:"sathvik",
+//         city:"Karimnagar"
+//     },
+//     {
+//         name:"Raghu",
+//         city:"ananthpur"
+//     },
+//     {
+//         name:"Shilpa",
+//         city:"Kammam"
+//     },
+//     {
+//         name:"Bharath",
+//         city:"Sathupalli"
+//     }
+// ];
 
-userDetails.map((user)=>{
-console.log(user.name);
-})
+// userDetails.map((user)=>{
+// console.log(user.name);
+// })
 
 
-let userdata={
-    name:"khan",
-    age:44,
-    city:"kadapa"
-};
-console.log(userdata.name , typeof(userdata));
+// let userdata={
+//     name:"khan",
+//     age:44,
+//     city:"kadapa"
+// };
+// console.log(userdata.name , typeof(userdata));
 
-let x=JSON.stringify(userdata);
-console.log(x, typeof(x))
+// let x=JSON.stringify(userdata);
+// console.log(x, typeof(x))
 
-let y=JSON.parse(x)
-console.log(y)
+// let y=JSON.parse(x)
+// console.log(y)
 
 
 
